@@ -1,4 +1,4 @@
-<nav class="main-header navbar navbar-expand-md navbar-light navbar-dark">
+<nav class="main-header navbar navbar-expand-md navbar-dark navbar-orange">
     <div class="container">
         <a href="assets/index3.html" class="navbar-brand">
             <!-- <img src="assets/dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8"> -->
@@ -48,11 +48,10 @@
                 <li class="nav-item dropdown user-menu">
                     <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
                         <img src="assets/dist/img/user.png" class="user-image img-circle elevation-2" alt="User Image">
-                        <span class="d-none d-md-inline"><?php echo (substr(ucfirst($this->session->userdata("nama")), 0, 25)) ?></span>
                     </a>
                     <ul class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
                         <!-- User image -->
-                        <li class="user-header bg-primary">
+                        <li class="user-header bg-orange">
                             <img src="assets/dist/img/user.png" class="img-circle elevation-2" alt="User Image">
 
                             <p>
