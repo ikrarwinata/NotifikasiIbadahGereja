@@ -9,15 +9,15 @@
 				<div class="carousel-item active">
 					<img class="d-block w-100" src="assets/sliders/<?php echo ($this->db->where('nama', 'slider1')->get('tentang')->row()->nilai) ?>" alt="First slide" style="width: 100%; max-width: 100% !important; max-height: 100% !important;">
 					<div class="carousel-caption d-none d-md-block">
-						<h3>Visi</h3>
-						<p><?php echo ($this->db->where('nama', 'visi')->get('tentang')->row()->nilai) ?></p>
+						<h3 class="text-orange">Visi</h3>
+						<p class="text-orange"><strong><?php echo ($this->db->where('nama', 'visi')->get('tentang')->row()->nilai) ?></strong></p>
 					</div>
 				</div>
 				<div class="carousel-item">
 					<img class="d-block w-100" src="assets/sliders/<?php echo ($this->db->where('nama', 'slider2')->get('tentang')->row()->nilai) ?>" alt="Second slide" style="width: 100%; max-width: 100% !important; max-height: 100% !important;">
 					<div class="carousel-caption d-none d-md-block">
-						<h3>Misi</h3>
-						<p><?php echo ($this->db->where('nama', 'misi')->get('tentang')->row()->nilai) ?></p>
+						<h3 class="text-orange">Misi</h3>
+						<p class="text-orange"><strong><?php echo ($this->db->where('nama', 'misi')->get('tentang')->row()->nilai) ?></strong></p>
 					</div>
 				</div>
 			</div>
