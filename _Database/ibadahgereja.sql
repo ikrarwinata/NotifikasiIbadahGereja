@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: 11 Jul 2021 pada 12.16
+-- Generation Time: 13 Jul 2021 pada 13.22
 -- Versi Server: 5.7.19
--- PHP Version: 7.1.9
+-- PHP Version: 5.6.31
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -46,7 +46,7 @@ CREATE TABLE IF NOT EXISTS `jadwal` (
 --
 
 INSERT INTO `jadwal` (`kode`, `jenis`, `rayon`, `tgl`, `tempat`, `pemimpin`, `pesan`, `terkirim`) VALUES
-('IBD16258568151', 1, 1, 1626012360, 'sadasdas', 'dasdasdasd', 'Hai, %{nama_jemaat}\r\nIni adalah pengingat %{jenis_ibadah} pada %{tanggal_jadwal}.\r\nTempat Ibadah : %{tempat_ibadah}\r\nPemimpin Ibadah : %{pemimpin_ibadah}', 1),
+('IBD16258568151', 1, 1, 1626173580, 'sadasdas', 'dasdasdasd', 'Hai, %{nama_jemaat}\r\nIni adalah pengingat %{jenis_ibadah} pada %{tanggal_jadwal}.\r\nTempat Ibadah : %{tempat_ibadah}\r\nPemimpin Ibadah : %{pemimpin_ibadah}', 1),
 ('IBD16258568732', 2, 3, 1625966280, 'sadsad', 'qwdqwdqwd', 'Hai, %{nama_jemaat}\r\nIni adalah pengingat %{jenis_ibadah} pada %{tanggal_jadwal}.\r\nTempat Ibadah : %{tempat_ibadah}\r\nPemimpin Ibadah : %{pemimpin_ibadah}', 0),
 ('IBD16258634773', 2, 1, 1625966220, 'qwdqw', 'wqdwqwqd', 'Hai, %{nama_jemaat}\r\nIni adalah pengingat %{jenis_ibadah} pada %{tanggal_jadwal}.\r\nTempat Ibadah : %{tempat_ibadah}\r\nPemimpin Ibadah : %{pemimpin_ibadah}', 0),
 ('IBD16260039494', 3, 1, 1626018480, 'jhggggggv', 'cgxyxycuf', 'Hai, %{nama_jemaat}\r\nIni adalah pengingat %{jenis_ibadah} pada %{tanggal_jadwal}.\r\nTempat Ibadah : %{tempat_ibadah}\r\nPemimpin Ibadah : %{pemimpin_ibadah}', 0);
@@ -198,11 +198,11 @@ CREATE TABLE IF NOT EXISTS `tentang` (
 --
 
 INSERT INTO `tentang` (`nama`, `nilai`) VALUES
-('slider1', 'slider1.svg'),
-('slider2', 'slider2.svg'),
+('slider1', 'bg.jpg'),
+('slider2', 'bg.jpg'),
 ('visi', 'Lorem ipsum sit dolor amet...'),
 ('misi', 'Lorem ipsum sit dolor amet...'),
-('nama_aplikasi', 'Ibadah Gereja');
+('nama_aplikasi', 'GKI SKION KLABALA');
 
 -- --------------------------------------------------------
 
