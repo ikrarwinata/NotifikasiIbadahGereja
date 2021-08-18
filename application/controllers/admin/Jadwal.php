@@ -152,6 +152,7 @@ class Jadwal extends CI_Controller
                 'tempat' => $this->input->post('tempat', TRUE),
                 'pemimpin' => $this->input->post('pemimpin', TRUE),
                 'pesan' => $this->input->post('pesan', TRUE),
+                'terkirim' => 0,
             );
 
             $this->Jadwal_model->update($this->input->post('oldkode', TRUE), $data);
